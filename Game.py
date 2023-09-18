@@ -4,24 +4,24 @@ import pygame,random,distance
 pygame.init()
 screen = pygame.display.set_mode((800,600))
 pygame.display.set_caption('Pong Ball')
-game_over = pygame.image.load('gameover.jpg')
+game_over = pygame.image.load('assets/gameover.jpg')
 score = 0
-font = pygame.font.Font("ka1.ttf",15)
-font2 = pygame.font.Font("ka1.ttf",30)
+font = pygame.font.Font("fonts/ka1.ttf",15)
+font2 = pygame.font.Font("fonts/ka1.ttf",30)
 # Bat1 Initialization
-bat1 = pygame.image.load('bat1.png')
+bat1 = pygame.image.load('assets/bat1.png')
 bat1_x = 10
 bat1_y = 270
 bat1_speed = 0
 time.sleep(4)
 # Bat2 Initialization
-bat2 = pygame.image.load('bat2.png')
+bat2 = pygame.image.load('assets/bat2.png')
 bat2_x = 780
 bat2_y = 270
 bat2_speed = 0
 
 # Ball Initialization
-ball = pygame.image.load('ball.png')
+ball = pygame.image.load('assets/ball.png')
 ball_x = 360
 ball_y = 300
 
